@@ -41,12 +41,12 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         }
     })
 
-    .state('app.motion', {
-        url: '/motion',
+    .state('app.promocoes2', {
+        url: '/promocoes2',
         views: {
             'menuContent': {
-                templateUrl: 'templates/motion.html',
-                controller: 'MotionCtrl'
+                templateUrl: 'templates/promocoes2.html',
+                controller: 'Promocoes2Ctrl'
             }
         }
     })
